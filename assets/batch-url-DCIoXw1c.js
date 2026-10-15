@@ -1,0 +1,1 @@
+function e(e){let t=(e.baseUrlOverride??``).trim()||(e.baseUrl??``).trim();if(!t)return{kind:`base-missing`};let n=(e.targetPath??``).trim();return n?{kind:`joined`,url:`${t.replace(/\/$/,``)}/${n.replace(/^\/+/,``)}`}:{kind:`path-missing`}}export{e as t};

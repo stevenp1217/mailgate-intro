@@ -1,0 +1,1 @@
+import{r as e,s as t}from"./api-BylX0GHd.js";function n(){return t({queryKey:[`me`],queryFn:()=>e(`api/me`),staleTime:300*1e3,retry:!1})}export{n as t};
